@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'NeueMachinaReg';
+    src: url('NeueMachina-Regular.ttf');
+}
+@font-face {
+    font-family: 'NeueMachinaLight';
+    src: url('NeueMachina-Light.ttf');
+}
+@font-face {
+    font-family: 'NeueMachinaBold';
+    src: url('NeueMachina-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'NeueMachinaUBold';
+    src: url('NeueMachina-Ultrabold.ttf');
+}
+
+.neueR {
+    font-family: NeueMachinaReg;
+}
+
+.neueL {
+    font-family: NeueMachinaLight;
+}
+.neueB {
+    font-family: NeueMachinaBold;
+}
+.neueUB {
+    font-family: NeueMachinaUBold;
+}
+

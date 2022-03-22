@@ -1,0 +1,24 @@
+<?php
+    $servername = "http://127.0.0.1";
+    $username = "root";
+    $password = "root";
+    $dbname = "venta";
+
+    // Create connection
+    $conn = new mysqli($servername, $username, $password, $dbname);
+
+    $insert = "INSERT INTO contact_data (telnum, sertype, descr) VALUES ('{$_POST['telnum']}', '{$_POST['servicetype']}', '{$_POST['descr']}')";
+
+    $insert_result = mysqli_query($conn, $insert);
+    header("Location: index.php");
+    exit;
+
+?>
+
+Прототипы для вертикального и горизонтального перемещения.
+Характеристики:
+щетка, очищающая от пыли и грязи, легко чистящийся контейнер для мусора и пыли;
+возможность смены насадок щетки и всасывателя, съемный фильтр;
+удаленное управление (2-5 метров);
+камера, подключенная к облаку, возможность работы в темноте;
+адаптированность размеров робота под вент. систему 30 см.
